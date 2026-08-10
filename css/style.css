@@ -108,7 +108,7 @@ nav {
     padding: 14px 24px;
 
     background: #222;
-    color: #fff;
+    color: #ffffff;
 
     border: 1px solid #222;
     border-radius: 4px;
@@ -131,7 +131,7 @@ nav {
 
 .button.secondary:hover {
     background: #222;
-    color: #fff;
+    color: #ffffff;
 }
 
 .text-link {
@@ -144,7 +144,6 @@ nav {
    HERO
 ======================================== */
 
-
 .hero {
     min-height: 650px;
 
@@ -154,6 +153,11 @@ nav {
     position: relative;
     overflow: hidden;
 
+    /*
+       CHANGE BOTH IMAGE PATHS BELOW
+       IF YOU WANT TO USE A DIFFERENT IMAGE
+    */
+
     background-image: url("../img/landinghero.png");
     background-size: cover;
     background-position: center;
@@ -162,13 +166,16 @@ nav {
     color: #FDFDE5;
 }
 
+
+/* Blurred background layer */
+
 .hero::before {
     content: "";
 
     position: absolute;
     inset: -20px;
 
-    background-image: url("../img/packaging.png");
+    background-image: url("../img/landinghero.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -179,6 +186,9 @@ nav {
 
     z-index: 0;
 }
+
+
+/* Light overlay */
 
 .hero::after {
     content: "";
@@ -191,36 +201,63 @@ nav {
     z-index: 1;
 }
 
+
+/* Hero content */
+
 .hero-content {
     width: min(1200px, 90%);
     margin: 0 auto;
 
     position: relative;
     z-index: 2;
+
+    color: #FDFDE5;
 }
+
+
+/* Small hero heading */
+
+.hero .eyebrow {
+    color: #FDFDE5;
+}
+
+
+/* Main hero heading */
 
 .hero h1 {
     max-width: 800px;
+
     font-size: clamp(3.5rem, 8vw, 7rem);
+
     margin-bottom: 30px;
+
     letter-spacing: -0.04em;
 
     color: #FDFDE5;
 }
 
-.hero-text {
+
+/* Hero paragraph */
+
+.hero .hero-text {
     max-width: 600px;
+
     font-size: 1.2rem;
+
     margin-bottom: 35px;
 
     color: #FDFDE5;
 }
+
+
+/* Hero buttons */
 
 .hero-buttons {
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
 }
+
 
 /* ========================================
    INTRODUCTION
@@ -237,7 +274,9 @@ nav {
 
 .intro h1 {
     font-size: clamp(3rem, 7vw, 6rem);
+
     margin-bottom: 30px;
+
     letter-spacing: -0.04em;
 }
 
@@ -263,6 +302,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+
     gap: 30px;
 
     margin-bottom: 50px;
@@ -271,13 +311,26 @@ nav {
 .game-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+
     gap: 25px;
 }
 
 .game-card {
     background: #ffffff;
     border: 1px solid #e5e5e5;
+
+    transition: transform 0.2s ease,
+                box-shadow 0.2s ease;
 }
+
+.game-card:hover {
+    transform: translateY(-4px);
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+
+/* Placeholder image */
 
 .game-image {
     aspect-ratio: 4 / 3;
@@ -289,7 +342,9 @@ nav {
     background: #e2e2dc;
 
     color: #777;
+
     font-size: 0.75rem;
+
     letter-spacing: 0.08em;
 }
 
@@ -299,22 +354,27 @@ nav {
 
 .game-number {
     font-size: 0.75rem;
+
     font-weight: 700;
+
     margin-bottom: 10px;
 }
 
 .game-content h3 {
     font-size: 1.6rem;
+
     margin-bottom: 12px;
 }
 
 .game-content p {
     color: #666;
+
     margin-bottom: 20px;
 }
 
 .game-content a {
     font-size: 0.9rem;
+
     font-weight: 600;
 }
 
@@ -325,7 +385,9 @@ nav {
 
 .resources-preview {
     padding: 120px 0;
+
     background: #222;
+
     color: #ffffff;
 }
 
@@ -339,18 +401,23 @@ nav {
 
 .resources-preview p:not(.eyebrow) {
     max-width: 650px;
+
     margin-bottom: 35px;
+
     color: #d0d0d0;
 }
 
 .resources-preview .button {
     background: #ffffff;
+
     color: #222;
+
     border-color: #ffffff;
 }
 
 .resources-preview .button:hover {
     background: transparent;
+
     color: #ffffff;
 }
 
@@ -360,17 +427,22 @@ nav {
 ======================================== */
 
 footer {
-    background: #111;
+    background: #111111;
+
     color: #ffffff;
+
     padding: 70px 0 20px;
 }
 
 .footer-container {
     width: min(1200px, 90%);
+
     margin: 0 auto 60px;
 
     display: grid;
+
     grid-template-columns: 2fr 1fr;
+
     gap: 80px;
 }
 
@@ -384,13 +456,18 @@ footer {
 
 .footer-container p {
     max-width: 400px;
-    color: #aaa;
+
+    color: #aaaaaa;
 }
 
 .footer-container a {
     display: block;
-    color: #aaa;
+
+    color: #aaaaaa;
+
     margin-bottom: 8px;
+
+    transition: color 0.2s ease;
 }
 
 .footer-container a:hover {
@@ -399,12 +476,15 @@ footer {
 
 .footer-bottom {
     width: min(1200px, 90%);
+
     margin: 0 auto;
+
     padding-top: 20px;
 
-    border-top: 1px solid #333;
+    border-top: 1px solid #333333;
 
-    color: #777;
+    color: #777777;
+
     font-size: 0.8rem;
 }
 
@@ -417,14 +497,17 @@ footer {
 
     nav {
         min-height: auto;
+
         padding: 20px 0;
 
         flex-direction: column;
+
         align-items: flex-start;
     }
 
     .nav-links {
         flex-wrap: wrap;
+
         gap: 15px;
     }
 
@@ -438,16 +521,22 @@ footer {
 
     .section-heading {
         align-items: flex-start;
+
         flex-direction: column;
     }
 
     .footer-container {
         grid-template-columns: 1fr;
+
         gap: 40px;
     }
 
 }
 
+
+/* ========================================
+   SMALL MOBILE
+======================================== */
 
 @media (max-width: 500px) {
 
@@ -457,6 +546,11 @@ footer {
 
     .hero-text {
         font-size: 1rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     .intro,
