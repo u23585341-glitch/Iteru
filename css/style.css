@@ -144,6 +144,7 @@ nav {
    HERO
 ======================================== */
 
+
 .hero {
     min-height: 650px;
 
@@ -157,6 +158,8 @@ nav {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
+    color: #FDFDE5;
 }
 
 .hero::before {
@@ -170,7 +173,7 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
 
-    filter: blur(15px);
+    filter: blur(8px);
 
     transform: scale(1.05);
 
@@ -196,22 +199,21 @@ nav {
     z-index: 2;
 }
 
-.hero-content {
-    width: min(1200px, 90%);
-    margin: 0 auto;
-}
-
 .hero h1 {
     max-width: 800px;
     font-size: clamp(3.5rem, 8vw, 7rem);
     margin-bottom: 30px;
     letter-spacing: -0.04em;
+
+    color: #FDFDE5;
 }
 
 .hero-text {
     max-width: 600px;
     font-size: 1.2rem;
     margin-bottom: 35px;
+
+    color: #FDFDE5;
 }
 
 .hero-buttons {
@@ -219,7 +221,6 @@ nav {
     flex-wrap: wrap;
     gap: 12px;
 }
-
 
 /* ========================================
    INTRODUCTION
