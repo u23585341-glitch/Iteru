@@ -170,7 +170,7 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
 
-    filter: blur(20px);
+    filter: blur(15px);
 
     transform: scale(1.05);
 
