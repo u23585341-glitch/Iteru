@@ -150,7 +150,10 @@ nav {
     display: flex;
     align-items: center;
 
-    background: #e9e9e4;
+    background-image: url("../img/hero.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .hero-content {
