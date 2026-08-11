@@ -852,6 +852,11 @@ footer {
 ======================================== */
 
 .guide-hero {
+    min-height: 500px;
+
+    display: flex;
+    align-items: center;
+
     background-image: url("../img/header1.png");
     background-size: cover;
     background-position: center;
