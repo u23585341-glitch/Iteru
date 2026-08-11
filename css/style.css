@@ -1257,6 +1257,19 @@ footer {
     margin-bottom: 35px;
 }
 
+/* WHAT'S INSIDE SECTION */
+
+.facilitator-page section.guide-content {
+    background-image: url("../img/header1.png") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.facilitator-page section.guide-content .eyebrow,
+.facilitator-page section.guide-content h2 {
+    color: #FDFDE5 !important;
+}
 
 /* MOBILE */
 
