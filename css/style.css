@@ -1319,3 +1319,10 @@ footer {
     background-image: none !important;
     background-color: #ffffff;
 }
+
+/* REMOVE GAMES PAGE BACKGROUND */
+
+main .games-preview {
+    background-image: none !important;
+    background-color: #ffffff !important;
+}
