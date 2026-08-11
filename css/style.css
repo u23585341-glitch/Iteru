@@ -273,12 +273,23 @@ nav {
     background-repeat: no-repeat;
 }
 
+.section-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    gap: 30px;
+
+    margin-bottom: 50px;
+
+    color: #FDFDE5;
+}
+
 /* Games section heading text */
 
-.games-preview .eyebrow,
-.games-preview h2,
-.games-preview h1,
-.games-preview > .section-container > p {
+.games-preview .section-heading .eyebrow,
+.games-preview .section-heading h2,
+.games-preview .section-heading p {
     color: #FDFDE5;
 }
 
