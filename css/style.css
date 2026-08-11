@@ -1126,6 +1126,13 @@ footer {
     margin-bottom: 35px;
 }
 
+/* HEADER TEXT COLOUR */
+
+.facilitator-page .guide-hero .eyebrow,
+.facilitator-page .guide-hero h1,
+.facilitator-page .guide-hero .guide-intro {
+    color: #FDFDE5;
+}
 
 /* ABOUT */
 
