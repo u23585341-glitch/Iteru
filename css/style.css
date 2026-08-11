@@ -266,6 +266,11 @@ nav {
 
 .games-preview {
     padding: 120px 0;
+
+    background-image: url("../img/background1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .section-heading {
