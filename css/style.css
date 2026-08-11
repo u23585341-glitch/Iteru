@@ -75,10 +75,10 @@ nav {
     gap: 30px;
 }
 
-.logo {
-    font-size: 1rem;
-    font-weight: 700;
-    letter-spacing: 0.05em;
+.logo img {
+    height: 30px;
+    width: auto;
+    display: block;
 }
 
 .nav-links {
