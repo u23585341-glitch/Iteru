@@ -273,6 +273,15 @@ nav {
     background-repeat: no-repeat;
 }
 
+/* Games section heading text */
+
+.games-preview .eyebrow,
+.games-preview h2,
+.games-preview h1,
+.games-preview > .section-container > p {
+    color: #FDFDE5;
+}
+
 .section-heading {
     display: flex;
     justify-content: space-between;
