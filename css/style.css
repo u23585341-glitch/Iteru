@@ -1101,7 +1101,11 @@ footer {
 
 .facilitator-page .guide-hero {
     padding: 120px 0;
-    background: #f8f8f6;
+
+    background-image: url("../img/header1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .facilitator-page .guide-hero .section-container {
