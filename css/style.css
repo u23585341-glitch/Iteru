@@ -1311,3 +1311,11 @@ footer {
 .home-intro p:last-child {
     color: #292929;
 }
+
+
+//GAMES PAGE//
+
+.games-page .games-preview {
+    background-image: none !important;
+    background-color: #ffffff;
+}
