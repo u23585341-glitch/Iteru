@@ -1268,3 +1268,8 @@ footer {
     }
 
 }
+
+.home-intro {
+    background-image: none;
+    background-color: #ffffff;
+}
