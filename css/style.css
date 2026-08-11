@@ -1034,3 +1034,189 @@ footer {
     }
 
 }
+
+/* ========================================
+   FACILITATOR GUIDE PAGE
+======================================== */
+
+.facilitator-page {
+    background: #f8f8f6;
+}
+
+
+/* HERO */
+
+.facilitator-page .guide-hero {
+    padding: 120px 0;
+    background: #f8f8f6;
+}
+
+.facilitator-page .guide-hero .section-container {
+    max-width: 900px;
+}
+
+.facilitator-page .guide-hero h1 {
+    font-size: clamp(3.5rem, 8vw, 7rem);
+    margin-bottom: 30px;
+    letter-spacing: -0.04em;
+}
+
+.facilitator-page .guide-intro {
+    max-width: 650px;
+    font-size: 1.25rem;
+    color: #555;
+    margin-bottom: 35px;
+}
+
+
+/* ABOUT */
+
+.facilitator-page .guide-about {
+    padding: 120px 0;
+    background: #ffffff;
+}
+
+.facilitator-page .guide-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+}
+
+.facilitator-page .guide-grid p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+
+/* CONTENT */
+
+.facilitator-page .guide-content {
+    padding: 120px 0;
+    background: #f8f8f6;
+}
+
+.facilitator-page .guide-content h2 {
+    margin-bottom: 50px;
+}
+
+.facilitator-page .guide-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.facilitator-page .guide-card {
+    background: #ffffff;
+    border: 1px solid #e5e5e5;
+    padding: 35px;
+}
+
+.facilitator-page .guide-card span {
+    display: block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.facilitator-page .guide-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+}
+
+.facilitator-page .guide-card p {
+    color: #666;
+}
+
+
+/* STEPS */
+
+.facilitator-page .guide-steps {
+    padding: 120px 0;
+    background: #ffffff;
+}
+
+.facilitator-page .guide-steps h2 {
+    margin-bottom: 50px;
+}
+
+.facilitator-page .guide-steps .steps-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.facilitator-page .guide-step {
+    border-top: 1px solid #222;
+    padding-top: 25px;
+}
+
+.facilitator-page .guide-step span {
+    display: block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.facilitator-page .guide-step h3 {
+    font-size: 1.3rem;
+    margin-bottom: 12px;
+}
+
+.facilitator-page .guide-step p {
+    color: #666;
+}
+
+
+/* DOWNLOAD */
+
+.facilitator-page .guide-download {
+    padding: 120px 0;
+    background: #222;
+    color: #ffffff;
+}
+
+.facilitator-page .guide-download .section-container {
+    max-width: 800px;
+}
+
+.facilitator-page .guide-download h2 {
+    margin-bottom: 25px;
+}
+
+.facilitator-page .guide-download p:not(.eyebrow) {
+    color: #d0d0d0;
+    margin-bottom: 35px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 800px) {
+
+    .facilitator-page .guide-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .facilitator-page .guide-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .facilitator-page .guide-steps .steps-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+
+@media (max-width: 500px) {
+
+    .facilitator-page .guide-steps .steps-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .facilitator-page .guide-hero h1 {
+        font-size: 3.2rem;
+    }
+
+}
