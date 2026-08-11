@@ -270,9 +270,8 @@ nav {
 
 .game-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-
-    gap: 25px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
 }
 
 .game-card {
@@ -293,19 +292,14 @@ nav {
 /* Placeholder image */
 
 .game-image {
+    width: 100%;
     aspect-ratio: 4 / 3;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: block;
+
+    object-fit: cover;
 
     background: #e2e2dc;
-
-    color: #777;
-
-    font-size: 0.75rem;
-
-    letter-spacing: 0.08em;
 }
 
 .game-content {
