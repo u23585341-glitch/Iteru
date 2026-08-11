@@ -270,8 +270,8 @@ nav {
 
 .game-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
 }
 
 .game-card {
@@ -293,7 +293,7 @@ nav {
 
 .game-image {
     width: 100%;
-    aspect-ratio: 4 / 3;
+    aspect-ratio: 1 / 1;
 
     display: block;
 
@@ -303,27 +303,24 @@ nav {
 }
 
 .game-content {
-    padding: 30px;
+    padding: 18px;
 }
 
 .game-number {
-    font-size: 0.75rem;
-
+    font-size: 0.65rem;
     font-weight: 700;
-
-    margin-bottom: 10px;
+    margin-bottom: 6px;
 }
 
 .game-content h3 {
-    font-size: 1.6rem;
-
-    margin-bottom: 12px;
+    font-size: 1.15rem;
+    margin-bottom: 8px;
 }
 
 .game-content p {
     color: #666;
-
-    margin-bottom: 20px;
+    font-size: 0.85rem;
+    margin-bottom: 15px;
 }
 
 .game-content a {
@@ -451,17 +448,13 @@ footer {
 
     nav {
         min-height: auto;
-
         padding: 20px 0;
-
         flex-direction: column;
-
         align-items: flex-start;
     }
 
     .nav-links {
         flex-wrap: wrap;
-
         gap: 15px;
     }
 
@@ -470,18 +463,16 @@ footer {
     }
 
     .game-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .section-heading {
         align-items: flex-start;
-
         flex-direction: column;
     }
 
     .footer-container {
         grid-template-columns: 1fr;
-
         gap: 40px;
     }
 }
@@ -504,6 +495,10 @@ footer {
     .hero-buttons {
         flex-direction: column;
         align-items: flex-start;
+    }
+
+    .game-grid {
+        grid-template-columns: 1fr;
     }
 
     .intro,
