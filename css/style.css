@@ -1326,3 +1326,10 @@ footer {
     background-image: none !important;
     background-color: #ffffff !important;
 }
+
+/* REMOVE BACKGROUND FROM GAME CARDS SECTION */
+
+.games-page .games-preview {
+    background-image: none !important;
+    background-color: #ffffff !important;
+}
