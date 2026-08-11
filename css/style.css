@@ -1320,4 +1320,9 @@ footer {
     background-color: #ffffff;
 }
 
+/* REMOVE BACKGROUND FROM GAMES PAGE ONLY */
 
+.games-page .games-preview {
+    background-image: none !important;
+    background-color: #ffffff !important;
+}
