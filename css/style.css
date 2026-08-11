@@ -1273,3 +1273,7 @@ footer {
     background-image: none;
     background-color: #ffffff;
 }
+
+.home-intro p:last-child {
+    color: #292929;
+}
