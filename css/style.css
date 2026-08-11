@@ -1116,6 +1116,7 @@ footer {
     font-size: clamp(3.5rem, 8vw, 7rem);
     margin-bottom: 30px;
     letter-spacing: -0.04em;
+    color: #FDFDE5;
 }
 
 .facilitator-page .guide-intro {
