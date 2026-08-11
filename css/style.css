@@ -958,7 +958,22 @@ footer {
     font-size: 0.95rem;
 }
 
+/* ========================================
+   WHAT'S INSIDE
+======================================== */
 
+.facilitator-page .guide-content {
+    background-image: url("../img/header1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.facilitator-page .guide-content .eyebrow,
+.facilitator-page .guide-content h2 {
+    color: #FDFDE5;
+}
+       
 /* ========================================
    GUIDE STEPS
 ======================================== */
