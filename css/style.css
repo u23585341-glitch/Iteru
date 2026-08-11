@@ -117,10 +117,10 @@ nav {
 
     padding: 14px 24px;
 
-    background: #222;
-    color: #ffffff;
+    background: #FDFDE5;
+    color: #292929;
 
-    border: 1px solid #222;
+    border: 1px solid #FDFDE5;
     border-radius: 4px;
 
     font-size: 0.9rem;
@@ -131,22 +131,22 @@ nav {
 
 .button:hover {
     background: transparent;
-    color: #222;
+    color: #FDFDE5;
+    border-color: #FDFDE5;
 }
+
+
+/* OUTLINE BUTTON */
 
 .button.secondary {
     background: transparent;
-    color: #222;
+    color: #FDFDE5;
+    border: 1px solid #FDFDE5;
 }
 
 .button.secondary:hover {
-    background: #222;
-    color: #ffffff;
-}
-
-.text-link {
-    font-weight: 600;
-    font-size: 0.9rem;
+    background: #FDFDE5;
+    color: #292929;
 }
 
 
