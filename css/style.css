@@ -235,7 +235,16 @@ nav {
 
 .intro {
     padding: 120px 0;
-    background: #ffffff;
+
+    background-image: url("../img/explore1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.intro .eyebrow,
+.intro h1,
+.intro p {
+    color: #FDFDE5;
 }
 
 .intro .section-container {
