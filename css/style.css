@@ -1601,9 +1601,10 @@ footer {
 }
 
 /* ========================================
-   GAMES PAGE — HEADING COLOUR
+   PAGE HEADING COLOURS
 ======================================== */
 
+/* GAMES */
 .games-page .games-preview .eyebrow,
 .games-page .games-preview h1,
 .games-page .games-preview h2,
@@ -1611,13 +1612,17 @@ footer {
     color: #FDFDE5 !important;
 }
 
-/* ========================================
-   RESOURCES PAGE — HEADING COLOUR
-======================================== */
-
+/* RESOURCES */
 .resources-page .eyebrow,
 .resources-page h1,
 .resources-page h2,
 .resources-page h3 {
+    color: #FDFDE5 !important;
+}
+
+/* ABOUT HEADER */
+.about-page .intro .eyebrow,
+.about-page .intro h1,
+.about-page .intro p {
     color: #FDFDE5 !important;
 }
