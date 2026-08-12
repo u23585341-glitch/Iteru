@@ -117,10 +117,10 @@ nav {
 
     padding: 14px 24px;
 
-    background: #414F9B;
+    background: #d5d8ec;
     color: #292929;
 
-    border: 1px solid #414F9B;
+    border: 1px solid #d5d8ec;
     border-radius: 4px;
 
     font-size: 0.9rem;
@@ -131,8 +131,8 @@ nav {
 
 .button:hover {
     background: transparent;
-    color: #FDFDE5;
-    border-color: #FDFDE5;
+    color: #d5d8ec;
+    border-color: #d5d8ec;
 }
 
 
@@ -140,12 +140,12 @@ nav {
 
 .button.secondary {
     background: transparent;
-    color: #414F9B;
-    border: 1px solid #414F9B;
+    color: #d5d8ec;
+    border: 1px solid #d5d8ec;
 }
 
 .button.secondary:hover {
-    background: #414F9B;
+    background: #d5d8ec;
     color: #292929;
 }
 
