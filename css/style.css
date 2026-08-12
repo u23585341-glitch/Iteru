@@ -1599,3 +1599,25 @@ footer {
     background-image: none !important;
     background-color: #ffffff;
 }
+
+/* ========================================
+   GAMES PAGE — HEADING COLOUR
+======================================== */
+
+.games-page .games-preview .eyebrow,
+.games-page .games-preview h1,
+.games-page .games-preview h2,
+.games-page .games-preview h3 {
+    color: #FDFDE5 !important;
+}
+
+/* ========================================
+   RESOURCES PAGE — HEADING COLOUR
+======================================== */
+
+.resources-page .eyebrow,
+.resources-page h1,
+.resources-page h2,
+.resources-page h3 {
+    color: #FDFDE5 !important;
+}
