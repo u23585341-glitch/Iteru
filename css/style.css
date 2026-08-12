@@ -1093,6 +1093,249 @@ footer {
 }
 
 /* ========================================
+   ABOUT PAGE — ITERU
+======================================== */
+
+
+/* ========================================
+   ABOUT SECTIONS
+======================================== */
+
+.about-section {
+    padding: 120px 0;
+    background: #FDFDE5;
+}
+
+.about-section .section-container {
+    max-width: 1100px;
+}
+
+
+/* SECTION LABEL */
+
+.about-section .eyebrow {
+    color: #292929;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    margin-bottom: 25px;
+}
+
+
+/* LARGE HEADINGS */
+
+.about-section h2 {
+    max-width: 850px;
+    font-size: clamp(2.8rem, 6vw, 5.5rem);
+    line-height: 0.95;
+    letter-spacing: -0.04em;
+    margin-bottom: 45px;
+}
+
+
+/* LARGE INTRODUCTORY TEXT */
+
+.about-large-text {
+    max-width: 850px;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    color: #292929 !important;
+    margin-bottom: 30px;
+}
+
+
+/* NORMAL BODY TEXT */
+
+.about-section > .section-container > p:not(.eyebrow):not(.about-large-text) {
+    max-width: 760px;
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 22px;
+}
+
+
+/* ========================================
+   OUR APPROACH
+======================================== */
+
+.about-approach {
+    background: #292929;
+}
+
+.about-approach .eyebrow,
+.about-approach h2,
+.about-approach .about-large-text {
+    color: #FDFDE5 !important;
+}
+
+.about-approach > .section-container > p:not(.eyebrow):not(.about-large-text) {
+    color: #FDFDE5;
+    opacity: 0.85;
+}
+
+
+/* ========================================
+   APPROACH — PLAY METHODS
+======================================== */
+
+.about-approach::after {
+    content: "";
+    display: block;
+}
+
+.about-approach .section-container {
+    position: relative;
+}
+
+
+/* ========================================
+   OUR TEAM
+======================================== */
+
+.team-section {
+    background: #FDFDE5;
+}
+
+.team-section h2 {
+    color: #292929;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 55px;
+}
+
+.team-card {
+    background: #ffffff;
+    padding: 40px;
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #e5e5e5;
+    transition: transform 0.25s ease,
+                box-shadow 0.25s ease;
+}
+
+.team-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+.team-card span {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: #292929;
+}
+
+.team-card h3 {
+    font-size: 1.5rem;
+    color: #292929;
+    margin: 0;
+}
+
+
+/* ========================================
+   THANK YOU
+======================================== */
+
+.about-thank-you {
+    padding: 140px 0;
+    background: #292929;
+}
+
+.about-thank-you .section-container {
+    max-width: 1100px;
+}
+
+.about-thank-you .eyebrow {
+    color: #FDFDE5;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    margin-bottom: 30px;
+}
+
+.about-thank-you h2 {
+    max-width: 900px;
+    color: #FDFDE5;
+    font-size: clamp(3.5rem, 8vw, 7rem);
+    line-height: 0.9;
+    letter-spacing: -0.05em;
+    margin-bottom: 70px;
+}
+
+
+/* THANK YOU TEXT */
+
+.thank-you-content {
+    max-width: 750px;
+}
+
+.thank-you-content p {
+    color: #FDFDE5;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.thank-you-content strong {
+    color: #FDFDE5;
+}
+
+
+/* ========================================
+   ABOUT PAGE — RESPONSIVE
+======================================== */
+
+@media (max-width: 800px) {
+
+    .about-section {
+        padding: 80px 0;
+    }
+
+    .about-section h2 {
+        font-size: 3rem;
+    }
+
+    .about-large-text {
+        font-size: 1.15rem;
+    }
+
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .about-thank-you {
+        padding: 90px 0;
+    }
+
+    .about-thank-you h2 {
+        font-size: 4rem;
+    }
+
+}
+
+
+@media (max-width: 500px) {
+
+    .about-section h2 {
+        font-size: 2.5rem;
+    }
+
+    .about-thank-you h2 {
+        font-size: 3.2rem;
+    }
+
+    .team-card {
+        padding: 30px;
+    }
+
+}
+
+/* ========================================
    FACILITATOR GUIDE PAGE
 ======================================== */
 
