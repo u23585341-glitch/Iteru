@@ -1644,3 +1644,15 @@ footer {
 .about-page .intro p {
     color: #FDFDE5 !important;
 }
+
+/* ========================================
+   ACTIVE NAVIGATION LINK
+======================================== */
+
+.nav-links a.active {
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+}
+
