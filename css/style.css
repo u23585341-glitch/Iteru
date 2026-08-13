@@ -1682,3 +1682,9 @@ footer {
 .resources-page .resource-card a {
     color: #292929 !important;
 }
+
+/* RESOURCES PAGE INTRO TEXT */
+
+.resources-page .intro p {
+    color: #FDFDE5 !important;
+}
