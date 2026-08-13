@@ -1656,3 +1656,29 @@ footer {
     text-underline-offset: 5px;
 }
 
+/* ========================================
+   RESOURCES PAGE
+======================================== */
+
+/* Remove background image from resources section */
+.resources-page .resources-preview {
+    background-image: none !important;
+    background-color: #ffffff !important;
+}
+
+
+/* Resources heading and introduction */
+.resources-page .resources-preview .eyebrow,
+.resources-page .resources-preview h1,
+.resources-page .resources-preview h2,
+.resources-page .resources-preview > .section-container > p {
+    color: #FDFDE5 !important;
+}
+
+
+/* Resource cards */
+.resources-page .resource-card h3,
+.resources-page .resource-card p,
+.resources-page .resource-card a {
+    color: #292929 !important;
+}
