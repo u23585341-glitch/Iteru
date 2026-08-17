@@ -1688,3 +1688,9 @@ footer {
 .resources-page .intro p {
     color: #FDFDE5 !important;
 }
+
+/* RESOURCE CARD HEADINGS */
+
+.resources-page .game-content h3 {
+    color: #292929 !important;
+}
